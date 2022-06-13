@@ -34,7 +34,7 @@ body {
 }
 
 .challenge {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 100px;
     min-height: 100vh;
     background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
@@ -96,6 +96,7 @@ body {
 @media (max-width:767px) {
     .challenge .container .info .about-info p {
         letter-spacing: 0;
+        margin: auto;
     }
 }
 
@@ -163,7 +164,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 @media (max-width:767px) {
@@ -185,7 +186,7 @@ body {
 }
 
 @media (min-width:1200px) {
-    .challenge .container .boxes .col.first {
+    .challenge .container .boxes .first {
         transform: translateY(-40px);
         -webkit-transform: translateY(-40px);
         -moz-transform: translateY(-40px);
@@ -193,7 +194,7 @@ body {
         -o-transform: translateY(-40px);
     }
 
-    .challenge .container .boxes .col.second {
+    .challenge .container .boxes .second {
         transform: translateY(-20px);
         -webkit-transform: translateY(-20px);
         -moz-transform: translateY(-20px);
